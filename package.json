@@ -120,7 +120,7 @@
     "json-rpc-engine": "^5.1.6",
     "json-rpc-middleware-stream": "^2.1.1",
     "jsonschema": "^1.2.4",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
     "loglevel": "^1.4.1",
     "luxon": "^1.8.2",
     "metamask-inpage-provider": "^4.0.3",

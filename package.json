@@ -55,7 +55,9 @@
     "storybook:deploy": "storybook-to-ghpages",
     "update-changelog": "./development/auto-changelog.sh",
     "rollback": "./development/rollback.sh",
-    "generate:migration": "./development/generate-migration.sh"
+    "generate:migration": "./development/generate-migration.sh",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "resolutions": {
     "3box/ipfs/ipld-zcash/zcash-bitcore-lib/lodash": "^4.17.15",
@@ -169,7 +171,8 @@
     "textarea-caret": "^3.0.1",
     "valid-url": "^1.0.9",
     "web3": "^0.20.7",
-    "web3-stream-provider": "^4.0.0"
+    "web3-stream-provider": "^4.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -286,5 +289,6 @@
   "engines": {
     "node": "^10.16.0",
     "yarn": "^1.16.0"
-  }
+  },
+  "snyk": true
 }
